@@ -1,0 +1,101 @@
+.container {
+    height: 70px;
+    padding: 0px 50px;
+    background-color: #394B59;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  .newLogo {
+    border-radius: 50%;
+  }
+  .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .item:nth-child(2) {
+    flex: 3;
+  }
+  .item:last-child {
+    justify-content: flex-end;
+  }
+  .callButton {
+    /* background-color: white; */
+    border-radius: 50%;
+    padding: 10px;
+    /* width: 50px; */
+    /* height: 50px; */
+  }
+  .texts {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .text:first-child {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+  }
+  .text:last-child {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+  }
+  .listItem {
+    margin: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+  }
+  .logoutB {
+    margin: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-left: 100px;
+  }
+  .logoutB:hover {
+    color: #E94A4A;
+  }
+  .listItem:hover {
+    color: #8DC1DB;
+  }
+  .cart {
+    position: relative;
+  }
+  .counter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #3B6072;
+  }
+  @media screen and (max-width: 480px) {
+    .item:nth-child(2) {
+      display: none;
+    }
+    .item:nth-child(1) {
+      flex: 3;
+    }
+  }

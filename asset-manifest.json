@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HaninHaidrah/onlie-shop-frontend/static/css/main.97cf1d92.css",
+    "main.js": "/HaninHaidrah/onlie-shop-frontend/static/js/main.b122d81d.js",
+    "static/js/787.83ab8da2.chunk.js": "/HaninHaidrah/onlie-shop-frontend/static/js/787.83ab8da2.chunk.js",
+    "index.html": "/HaninHaidrah/onlie-shop-frontend/index.html",
+    "main.97cf1d92.css.map": "/HaninHaidrah/onlie-shop-frontend/static/css/main.97cf1d92.css.map",
+    "main.b122d81d.js.map": "/HaninHaidrah/onlie-shop-frontend/static/js/main.b122d81d.js.map",
+    "787.83ab8da2.chunk.js.map": "/HaninHaidrah/onlie-shop-frontend/static/js/787.83ab8da2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97cf1d92.css",
+    "static/js/main.b122d81d.js"
+  ]
+}
